@@ -1,0 +1,26 @@
+[worldserver]
+
+########################################
+# flood protection
+########################################
+#
+#    max_messages
+#        Description: max messages the player can send before it will trigger the mute
+#        Default:     5 
+#                     
+#
+max_messages = 5
+#
+#    TIME_FRAME
+#        Description: time frame for each pile of messages in seconds
+#        Default:     10 
+#                     
+#
+time_frame = 10
+#
+#    mute_duration
+#        Description: The amount of time the player will be muted for in seconds
+#        Default:     60 
+#                     
+#
+mute_duration = 60
